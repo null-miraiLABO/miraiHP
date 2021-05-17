@@ -1,0 +1,263 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url("bt/Concrete-wall-texture041.jpg");
+	width: auto;
+	height: auto;
+}
+
+header h1
+{
+	position: fixed;
+	top: 1px;
+	right: 10px;
+	font-size: 26px;
+	color: whitesmoke;
+}
+
+header h1{
+  text-shadow:2px 0 0 #fff,0 2px 0 #fff,-1px 0 0 #fff,0 -1px 0 #fff;
+  color:#272727;
+}
+
+footer
+{
+	width: 100%;
+	height: 50px;
+	background-color:#131313;
+	border-top: solid;
+	border-color: white;
+	color: white;
+	text-align: center;
+}
+
+footer div
+{
+	margin-top: 10px;
+}
+
+.menuicon
+{
+	position: fixed;
+	top: 15px;
+	left: 20px;
+	height: 25px;
+	width: 35px;
+	padding: 5px;
+}
+
+header img:hover
+{
+	background-color:#434343;
+}
+
+.backicon
+{
+	position: fixed;
+	top: 15px;
+	left: 24px;
+	height: 25px;
+	width: 35px;
+	padding: 5px;
+	display: none;
+}
+
+.menu
+{
+	position: fixed;
+	top: 50px;
+	left: 20px;
+	width: 320px;
+	height: 700px;
+	background:rgba(0,0,0,0.8);
+	font-size: 30px;
+	border-left: solid 4px;
+	border-color: white;
+	display: none;
+}
+
+.menu p
+{
+	margin: 25px;
+	border-bottom: solid 1px;
+	border-color: white;
+	color:#CFCFCF;
+}
+
+.menu a
+{
+	text-decoration: none;
+}
+
+.ic
+{
+	position: fixed;
+	top: 40%;
+	right: 0px;
+	height: 300px;
+	width: 80px;
+}
+
+.ic img
+{
+	width: 65px;
+	margin-top: 30px;
+}
+
+.ic img:hover
+{
+	width: 70px;
+}
+
+.background
+{
+	margin-top: 80px;
+	padding-top: 5px;
+	width: 100%;
+	overflow: hidden;
+	background:rgba(0,0,0,0.8);
+}
+
+main
+{
+	width: 100%;
+	height: 4000px;
+}
+
+#bgp
+{
+	text-align: center;
+}
+
+#bgp img
+{
+	height: 600px;
+	width: 800px;
+}
+
+.twit
+{
+	width: 100%;
+	text-align: center;
+	margin-top:200px;
+	margin-bottom: 50px;
+}
+
+.subTitle
+{
+	font-size: 38px;
+	border-bottom: solid;
+	margin-top: 100px;
+	margin-left: 80px;
+	display: none;
+}
+
+.subTitle span
+{
+	margin-left: 20px;
+	font-size: 20px;
+	color: #777777;
+}
+
+.Content
+{
+	margin: auto;
+	width: 80%;
+	height: 600px;
+	background:rgba(0,0,0,0.5);
+	border: 4px solid;
+	border-color: white;
+	display: none;
+	overflow: scroll;
+}
+
+.Content img
+{
+	width: 100%
+}
+
+.kwsk1
+{
+	position: absolute;
+	top: 1530px;
+	right: 10px;
+}
+
+.kwsk2
+{
+	position: absolute;
+	top: 2350px;
+	right: 10px;
+}
+
+.kwsk3
+{
+	position: absolute;
+	top: 3195px;
+	right: 10px;
+}
+
+.kwsk4
+{
+	position: absolute;
+	top: 3950px;
+	right: 10px;
+}
+
+.button
+{
+	height: 25px;
+	width: 90px;
+	color: black;
+}
+
+.button:hover
+{
+	font-size: 18px;
+	height: 30px;
+	width: 95px;
+}
+
+.twit
+{
+	width: 100%;
+	text-align: center;
+	margin-top:200px;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px)
+{	
+	.ic
+	{
+		right: 0px;
+	}
+	
+	.ic img
+	{
+		margin-right: 0px;
+		padding-right: 0px;
+		width: 55px;
+	}
+	
+	.kwsk4
+	{
+		top: 4040px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

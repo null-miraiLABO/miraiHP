@@ -1,0 +1,321 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url("bt/Concrete-wall-texture041.jpg");
+	width: auto;
+	height: auto;
+}
+
+header h1
+{
+	position: fixed;
+	top: 1px;
+	right: 10px;
+	font-size: 26px;
+	color: whitesmoke;
+}
+
+header h1{
+  text-shadow:2px 0 0 #fff,0 2px 0 #fff,-1px 0 0 #fff,0 -1px 0 #fff;
+  color:#272727;
+}
+
+h2
+{
+	position: absolute;
+	top: 100px;
+	left: 30%;
+}
+
+footer
+{
+	width: 100%;
+	height: 50px;
+	background-color:#131313;
+	border-top: solid;
+	border-color: white;
+	color: white;
+	text-align: center;
+}
+
+footer div
+{
+	margin-top: 10px;
+}
+
+.menuicon
+{
+	position: fixed;
+	top: 15px;
+	left: 20px;
+	height: 25px;
+	width: 35px;
+	padding: 5px;
+}
+
+header img:hover
+{
+	background-color:#434343;
+}
+
+.backicon
+{
+	position: fixed;
+	top: 15px;
+	left: 24px;
+	height: 25px;
+	width: 35px;
+	padding: 5px;
+	display: none;
+}
+
+.menu
+{
+	position: fixed;
+	top: 50px;
+	left: 20px;
+	width: 320px;
+	height: 700px;
+	background:rgba(0,0,0,0.8);
+	font-size: 30px;
+	border-left: solid 4px;
+	border-color: white;
+	display: none;
+}
+
+.menu p
+{
+	margin: 25px;
+	border-bottom: solid 1px;
+	border-color: white;
+	color:#CFCFCF;
+}
+
+.menu a
+{
+	text-decoration: none;
+}
+
+.ic
+{
+	position: fixed;
+	top: 40%;
+	right: 5px;
+	height: 400px;
+	width: 100px;
+}
+
+.ic img
+{
+	width: 65px;
+	margin-top: 30px;
+}
+
+.ic img:hover
+{
+	width: 70px;
+}
+
+.background
+{
+	margin-top: 80px;
+	padding-top: 5px;
+	width: 100%;
+	overflow: hidden;
+	background:rgba(0,0,0,0.8);
+}
+
+main
+{
+	width: 100%;
+	height: 800px;
+}
+
+main img
+{
+	width: 240px;
+	border-bottom: solid;
+	border-right: solid;
+	border-width: 3px;
+	border-color: gray;
+}
+
+.png1
+{
+	position: absolute;
+	top: 200px;
+	left: 150px;
+}
+
+.title1
+{
+	position: absolute;
+	top: 390px;
+	left: 180px;
+	font-size: 22px;
+	display: none;
+}
+
+.title2
+{
+	position: absolute;
+	top: 390px;
+	left: 490px;
+	font-size: 22px;
+	display: none;
+}
+
+main p
+{
+	font-size: 15px;
+}
+
+main img:hover
+{
+	width: 250px;
+}
+
+.png2
+{
+	position: absolute;
+	top: 200px;
+	left: 450px;
+}
+
+
+.bigPng1
+{
+	position: absolute;
+	top: 200px;
+	left: 5%;
+	width: 90%;
+	display: none;
+}
+
+.bigPng2
+{
+	position: absolute;
+	top: 200px;
+	left: 5%;
+	width: 90%;
+	display: none;
+}
+
+.back
+{
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 200%;
+	display: none;
+}
+
+.twit
+{
+	width: 100%;
+	text-align: center;
+	margin-top:200px;
+	margin-bottom: 50px;
+}
+
+.subTitle
+{
+	font-size: 38px;
+	border-bottom: solid;
+	margin-top: 100px;
+	margin-left: 80px;
+	display: none;
+}
+
+.subTitle span
+{
+	margin-left: 20px;
+	font-size: 20px;
+	color: #777777;
+}
+
+.Content
+{
+	margin: auto;
+	width: 80%;
+	height: 600px;
+	background:rgba(0,0,0,0.5);
+	border: 4px solid;
+	border-color: white;
+	display: none;
+}
+
+.twit
+{
+	width: 100%;
+	text-align: center;
+	margin-top:200px;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px)
+{	
+	.ic
+	{
+		right: 0px;
+	}
+	
+	.ic img
+	{
+		margin-right: 0px;
+		padding-right: 0px;
+		width: 55px;
+	}
+	
+	.png1
+	{
+		position: absolute;
+		top: 200px;
+		left: 60px;
+	}
+
+	.title1
+	{
+		position: absolute;
+		top: 390px;
+		left: 60px;
+		font-size: 22px;
+		display: none;
+	}
+
+	.title2
+	{
+		position: absolute;
+		top: 690px;
+		left: 60px;
+		font-size: 22px;
+		display: none;
+	}
+
+	.png2
+	{
+		position: absolute;
+		top: 500px;
+		left: 60px;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
